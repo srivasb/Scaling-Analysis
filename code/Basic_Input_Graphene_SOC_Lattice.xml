@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<parameters identifier="EQuUs" version="5.0.144">
+
+	<computing_parameters description="Parameters used in calculations">
+		<BdG value="1" description="Set to 1 in superconducting systems, 0 (default) for normal systems" />
+		<Decimation value="4" description="Option for using Decimation. Type 1,2 or 3 to use it, 0 to not use it" />
+		<Decimation_block value="151" description="size of maximal block to decimate" />
+        <Decimate_only_Dyson value="1" description="set 1 for decimate only the Dyson equation, and 0 otherwise." />
+		<Lattice_Type value="Graphene_SOC" description="set 0 for square lattice, 1 for graphene lattice, 2 for Silicene" />
+		<magnetic_field value="1" description="Type 0 not to use magnetic field, or 1 to use magnetic field"/>
+		<magnetic_field_trans_invariant value="0" description="Type 0 not to use magnetic field, or 1 to use magnetic field"/>
+		<Silent value="1" description="Set 1 in order to mute output messages" />
+		<usingDualModes value="1"/>
+		<workers value="8" description="Number of parallel matlab workers" />
+		<debug value="0" description="Set to 1 in order to export debug informations." />
+	</computing_parameters>
+
+
+	<Scatter_region description="Parameters used to create scattering region">
+		<epsilon value="0" description="On-site energy in the scattering region" /> 
+		<vargamma value="2.97" description="Hopping parameter in the scattering region"  /> 
+		<pair_potential abs="0.0" phase="0" description="Superconducting pair potential, with abs standing for the absolute value and phase for the complex phase" />
+		<End_Type value="A" description="Lead end type in case of hexagonal lattice" />	
+		<pair_potential abs="0." phase="1.2" description="Superconducting pair potential, with abs standing for the absolute value and phase for the complex phase" />
+	</Scatter_region>
+
+
+	<Lead_parameters description="Parameters used to create leads attached to the scattering region">
+		<NofLeads value="2" description="Number of leads"/> 
+		
+		
+
+		<lead num="1">
+			<epsilon value="-0.8" description="On-site energy in the scattering region" /> 
+			<vargamma value="2.97" description="Hopping parameter in the scattering region" />
+			<orientation value="1" description="Orientation of the lead" /> 
+			<End_Type value="A" description="Lead end type in case of hexagonal lattice" />	
+			<pair_potential abs="0." phase="1.2" description="Superconducting pair potential, with abs standing for the absolute value and phase for the complex phase" />
+		</lead>
+
+		<lead num="2">
+			<epsilon value="-0.8" description="On-site energy in the scattering region" /> 
+			<vargamma value="2.97" description="Hopping parameter in the scattering region" />
+			<orientation value="-1" description="Orientation of the lead" /> 
+			<End_Type value="A" description="Lead end type in case of hexagonal lattice" />	
+			<pair_potential abs="0." phase="1.2" description="Superconducting pair potential, with abs standing for the absolute value and phase for the complex phase" />
+		</lead>
+
+	</Lead_parameters>
+
+</parameters> 
