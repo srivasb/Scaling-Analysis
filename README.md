@@ -22,8 +22,10 @@ When studying the curren-phase-relation (CPR) of a Josephson Junction (JJ), supe
 
 > Results:
 
-  - Runtime (h)
+  - Runtime (h) 
     
-  ![Alternative Text](images/png/chunksize_vs_runtime-1.png)
+  ![Runtime vs k-points (Log scale)](images/png/chunksize_vs_runtime-1.png)
   
   - Throughtput: $T=\frac{\text{Chunk Size}}{h}$
+
+  ![k-points per hour](images/png/chunk_per_hour-1.png)
