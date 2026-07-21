@@ -10,6 +10,7 @@ When studying the curren-phase-relation (CPR) of a Josephson Junction (JJ), supe
   - Runtime: Time of execution of the parallel code + serial code
 
 > Metric Quantities to Study the performance: Fixed the following parameters and only change the Chunk size"
+  -NUmber of cores: 8 (mem per cpu = $2G$)
   - Junction Lenght = $127.15\,nm$ (this is the length of the N-regin o f the junction.
   - k-points Infinite Mass boundary conditions (Width >> Length)
   - pair potential: $\Delta_0=0.0012\,eV$
@@ -29,3 +30,9 @@ When studying the curren-phase-relation (CPR) of a Josephson Junction (JJ), supe
   - Throughtput: $T=\frac{\text{Chunk Size}}{h}$
 
   ![k-points per hour](images/png/chunk_per_hour-1.png)
+
+  - Runtime Change = $\frac{RT_{i>0} - RT_0}{RT_0} \times 100$
+
+  ![Runtime Change](images/png/Runtime_change-1)
+
+> COnclusions:
