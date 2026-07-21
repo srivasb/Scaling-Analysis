@@ -14,7 +14,7 @@ When studying the curren-phase-relation (CPR) of a Josephson Junction (JJ), supe
   - Junction Lenght = $127.15\,nm$ (this is the length of the N-regin o f the junction.
   - k-points Infinite Mass boundary conditions (Width >> Length)
   - pair potential: $\Delta_0=0.0012\,eV$
-  - vargamma_SC (hopping between N-region and S-leads): $\vargamma_{SC}=2.97*0.67$ 
+  - vargamma_SC (hopping between N-region and S-leads): $\gamma_{SC}=2.97*0.67$ 
   - $EF = 0.350\,eV$
   - $T = 0.04\,k$
   - Valley Zeeman SOC ($\lambda_{VZ}$): $\lambda_{VZ}=0.002\, eV$
