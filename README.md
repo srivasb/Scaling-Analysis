@@ -33,6 +33,6 @@ When studying the curren-phase-relation (CPR) of a Josephson Junction (JJ), supe
 
   - Runtime Change = $\frac{RT_{i>0} - RT_0}{RT_0} \times 100$
 
-  ![Runtime Change](images/png/Runtime_change-1)
+  ![Runtime Change](images/png/Runtime_change-1.png)
 
-> COnclusions:
+> Conclusions:
